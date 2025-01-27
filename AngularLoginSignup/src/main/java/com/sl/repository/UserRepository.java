@@ -8,4 +8,5 @@ import com.sl.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByUsername(String username);
+   
 }
